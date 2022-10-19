@@ -1,0 +1,104 @@
+/* Configurações Gerais */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+._container {
+    display: flex;
+    /* border: 1px solid red; */
+    background: #0E0E10;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* Configurações do Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    padding: 0 20px;
+    background-color: #18181B;
+}
+
+.logo {
+    color: #fff;
+    font-size: 5em;
+}
+.menu_principal ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_principal ul li {
+    margin-left: 15px;
+}
+
+.menu_principal ul li a {
+    color: #fff;
+    font-size: 23px;
+}
+
+ /* Corpo site */
+.box_art {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    /* padding: 0px 20px 0px 20px; */
+    margin-bottom: 120px;
+}
+
+.text_art {
+    width: 600px;
+    font-size: 2em;
+}
+
+.img_art {
+    width: 320px;
+}
+
+footer {
+    position: relative;
+    height: 90px;
+    background-color: #26262B;
+    clear: both;
+}
+
+.wrapper_redes_sociais {
+    position: absolute;
+    left: 20px;
+    top: 30px
+}
+
+.redes_sociais {
+    color: #fff;
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.copy {
+    position: absolute;
+    left: 500px;
+    top: 40px;
+}
+
+.autor {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
