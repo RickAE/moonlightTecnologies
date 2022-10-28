@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -22,6 +23,7 @@ a {
     background: #0E0E10;
     flex-direction: column;
     color: #fff;
+    overflow-x: hidden;
 }
 
 /* Configurações do Header */
@@ -66,23 +68,25 @@ header {
 .text_art {
     width: 600px;
     font-size: 2em;
+    word-break: break-all;
 }
 
 .img_art {
     width: 320px;
+    height: 320px;
 }
 
 footer {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
     height: 90px;
     background-color: #26262B;
-    clear: both;
 }
 
 .wrapper_redes_sociais {
-    position: absolute;
-    left: 20px;
-    top: 30px
+
 }
 
 .redes_sociais {
@@ -92,15 +96,11 @@ footer {
 }
 
 .copy {
-    position: absolute;
-    left: 550px;
-    top: 40px;
+
 }
 
 .autor {
-    position: absolute;
-    right: 20px;
-    top: 40px;
+
 }
 
 #btn-mobile
@@ -129,7 +129,7 @@ footer {
 
     .menu_principal.active #menu_topo
     {
-        height: 100vh;
+        height: 60vh;
         visibility: visible;
     }
 
@@ -172,6 +172,41 @@ footer {
     }
 }
 
+@media (max-width: 1160px) {
+    .box_art {
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .first {
+        margin-bottom: 30px;
+    }
+
+    .text_art {
+        width: 80%;
+        font-size: 1em;
+    }
+    .img_art {
+        width: 120px;
+        height: 120px;
+    }
+
+    .redes_sociais {
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+
+    .copy {
+        /* width: 100%; */
+        display: inline-block;
+    }
+
+    footer {
+        padding: 0px;
+        padding-left: 10px;
+    }
+}
 
 /* Soluções */
 
