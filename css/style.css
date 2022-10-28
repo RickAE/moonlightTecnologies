@@ -86,7 +86,7 @@ footer {
 }
 
 .wrapper_redes_sociais {
-
+    display: flex;
 }
 
 .redes_sociais {
@@ -96,7 +96,7 @@ footer {
 }
 
 .copy {
-
+    
 }
 
 .autor {
@@ -194,17 +194,26 @@ footer {
 
     .redes_sociais {
         font-size: 1.2em;
+        width: 33%;
         margin-bottom: 5px;
     }
 
     .copy {
         /* width: 100%; */
-        display: inline-block;
+        display: block;
+        width: 33%;
+    }
+
+    .autor {
+        width: 16%;
     }
 
     footer {
-        padding: 0px;
-        padding-left: 10px;
+        padding: 0px 10px;
+    }
+
+    .wrapper_redes_sociais {
+        flex-direction: column;
     }
 }
 
