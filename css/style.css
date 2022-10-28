@@ -95,14 +95,6 @@ footer {
     margin-right: 10px;
 }
 
-.copy {
-    
-}
-
-.autor {
-
-}
-
 #btn-mobile
 {
     display: none;
@@ -268,9 +260,10 @@ footer {
 }
 
 .descricao {
-    width: 300px;
-    font-size: 30px;
+    width: 275px;
+    font-size: 175%;
     margin-top: 40px;
+    display: block
 }
 
 .td {
@@ -288,6 +281,20 @@ footer {
         margin-bottom: 20px;
     }
 
+    .wrapper_descricao_solucao {
+        padding: 0 20px;
+    }
+
+    .descricao {
+        width: 100%;
+        word-wrap: break-word;
+        font-size: 150%;
+    }
+
+    .solucoes_icon {
+        font-size: 60px;
+    }
+
 }
 
 @media (max-width: 790px) {
@@ -298,5 +305,13 @@ footer {
     .box_solucao {
         width: 195px;
         height: 245px;
+    }
+
+    .descricao {
+        font-size: 100%;
+    }
+
+    .solucoes_icon {
+        font-size: 45px;
     }
 }
