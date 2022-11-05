@@ -36,9 +36,21 @@ header {
     background-color: #18181B;
 }
 
+.wrapper_logo {
+    display: flex;
+    align-items: center;
+}
+
+.mn {
+    font-size: 1.5em;
+    margin-left: -40px;
+    margin-bottom: 5px;
+}
+
 .logo {
     color: #fff;
-    font-size: 5em;
+    font-size: 5.5em;
+    transform: rotate(13deg);
 }
 .menu_principal ul {
     list-style: none;
@@ -62,7 +74,7 @@ header {
     justify-content: space-evenly;
     margin-top: 120px;
     /* padding: 0px 20px 0px 20px; */
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 }
 
 .text_art {
@@ -83,6 +95,7 @@ footer {
     padding: 0px 20px;
     height: 90px;
     background-color: #26262B;
+    margin-top: 120px;
 }
 
 .wrapper_redes_sociais {
@@ -214,7 +227,7 @@ footer {
 .wrapper_solucoes {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 300px;
+    /* margin-bottom: 300px; */
 }
 
 .box_solucao {
@@ -240,7 +253,7 @@ footer {
     height: 100%;
     filter: opacity(0%);
     transition: all 0.5s;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .site {
@@ -314,4 +327,51 @@ footer {
     .solucoes_icon {
         font-size: 45px;
     }
+}
+
+/* Empresa  */
+
+.wrapper_sobre_empresa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 80px; */
+}
+
+.wrapper_sobre_empresa h1 {
+    font-size: 2.5em;
+    margin: 20px 0px;
+
+}
+
+.img_equipe {
+    width: 60%;
+}
+
+.wrapper_descricao_equipe {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.box_descricao_equipe {
+    background: #141418;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 0px 20px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 2px 2px 9px 1px #000;
+
+}
+
+.descricao_equipe {
+    font-size: 24px;
+    width: 330px;
+
 }
